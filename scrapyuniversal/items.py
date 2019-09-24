@@ -11,4 +11,9 @@ import scrapy
 class ScrapyuniversalItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    url = scrapy.Field()
+    text = scrapy.Field()
+    datetime = scrapy.Field()
+    source = scrapy.Field()
+    website = scrapy.Field()
