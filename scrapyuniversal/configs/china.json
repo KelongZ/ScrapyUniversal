@@ -1,0 +1,16 @@
+{
+    "spider": "universal",
+    "website": "中国网科技",
+    "type": "新闻",
+    "index": "http://tech.china.com",
+    "settings":{
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+    },
+    "start_urls":[
+        "https://tech.china.com/articles"
+    ],
+    "allowed_domains":[
+        "tech.china.com"
+    ],
+    "rules":"china"
+}
